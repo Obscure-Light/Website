@@ -1,220 +1,225 @@
-﻿const linkData = Object.freeze([
+﻿const profileData = {
+  photo: 'assets/fotoprofilo.webp', 
+  // Definizione dei due loghi
+  logoDark: 'assets/logo.png',   // Logo Bianco (per sfondo scuro)
+  logoLight: 'assets/logos.png', // Logo Scuro (per sfondo chiaro)
+  
+  name: 'Alessandro Pila',
+  role: 'Cybersecurity Engineer',
+  location: 'Milano, IT',
+  
+  // Aggiunta la mail come primo elemento (o dove preferisci)
+  socials: [
+    { label: 'Email Me', url: 'mailto:contact@alessandropila.it', icon: 'email' },
+    { label: 'LinkedIn', url: 'https://go.alessandropila.it/linkedin', icon: 'linkedin' },
+    { label: 'GitHub', url: 'https://go.alessandropila.it/github', icon: 'github' },
+    { label: 'Instagram', url: 'https://go.alessandropila.it/instagram', icon: 'instagram' },
+  ]
+};
+
+const sections = [
   {
-    type: 'profile',
-    photo: 'assets/fotoprofilo.webp',
-    name: 'Alessandro Pila',
-    title: 'Cybersecurity Engineer \u00b7 Cloud & Infrastructure \u00b7 Detection & Response',
-    bio: 'Progetto, proteggo e governo infrastrutture cloud e ibride complesse. Opero in ambienti cloud e on-prem integrando cybersecurity, networking, automazione e governance, con un approccio operativo orientato alla resilienza e alla gestione del rischio reale.',
-    socials: [
-      {
-        label: 'LinkedIn',
-        url: 'https://www.linkedin.com/in/alessandropila',
-        icon: 'linkedin',
-      },
-      {
-        label: 'GitHub',
-        url: 'https://github.com/Obscure-Light',
-        icon: 'github',
-      },
-      {
-        label: 'Instagram',
-        url: 'https://www.instagram.com/pila.alessandro/#',
-        icon: 'instagram',
-      },
-    ],
-  },
-  {
-    type: 'section',
+    type: 'about',
     title: 'About Me',
-    buttons: [
-      {
-        label: `\uD83D\uDEE1\uFE0F Cybersecurity Engineer
+    content: `Mi occupo di cybersecurity end-to-end, operando su ambienti multi-cloud e ibridi con focus su protezione, rilevamento e risposta agli incidenti.
 
-Mi occupo di sicurezza informatica a 360\u00b0.
-Lavoro in Accenture, operando su ambienti multi-cloud, ibridi e locali, dalla prevenzione dei sistemi IT/OT alla risposta agli incidenti, fino alla governance.
-
-Studio Ingegneria Informatica (LM-32) e frequento un Master di I livello in Management & Cybersecurity, perch\u00e9 credo che la sicurezza efficace nasca dall'incontro tra competenza tecnica e capacit\u00e0 decisionale.
-
-Mi formo continuamente per essere pronto quando il contesto \u00e8 complesso e non c'\u00e8 margine di errore.
-
-\uD83E\uDD1D Impegno civico
-RLS \u00b7 RSU FIOM \u00b7 Volontario ANC \u00b7 Vigile del Fuoco Volontario
-Vivo la sicurezza anche fuori dall'IT come responsabilit\u00e0 verso le persone e presenza sul campo.
-
-\uD83D\uDCDC 369+ certificazioni e abilitazioni
-Dal digitale alla sicurezza operativa, una visione completa e concreta della protezione.
-
-\uD83D\uDD11 Tecnologia \u00b7 Etica \u00b7 Disciplina \u00b7 Visione
-\uD83D\uDCCD Milano \u2014 operativo ovunque
-\uD83D\uDE80 Percorso verso ruoli di Security Manager`,
-        variant: 'about',
-      },
-    ],
+    In Accenture lavoro sulla sicurezza di infrastrutture complesse, integrando tecnologia, processi e governance per ridurre il rischio reale.
+    
+    Studio Ingegneria Informatica (LM-32) e frequento un Master in Management & Cybersecurity, con un approccio orientato all’operatività, alla resilienza e alla responsabilità tecnica.
+    
+    Tecnologia · Etica · Disciplina · Visione`,
+    tags: [
+      'Cloud Security', 
+      'Detection & Response', 
+      'Governance', 
+      'IT/OT', 
+      'Incident Response', 
+      'Automation', 
+      'Identity & Access'
+    ]
   },
   {
-    type: 'section',
-    title: 'Formazione',
-    buttons: [
-      {
-        label: 'Credly - Portfolio Badge',
-        url: 'https://www.credly.com/users/alessandro-pila',
-      },
-      {
-        label: 'Accredible - Skillsoft Wallet',
-        url: 'https://skillsoft.digitalbadges.skillsoft.com/profile/alessandropila256379/wallet',
-      },
-      {
-        label: 'Microsoft Learn Dashboard',
-        url: 'https://learn.microsoft.com/it-it/users/pilaalessandro-4080/',
-      },
-      {
-        label: 'OneDrive - Attestati e Portfolio',
-        url: 'https://1drv.ms/f/c/a293a790e56ccdc0/IgAqZtKVJYoeRLiFwfCf9UvYAUB8KFEv8u8Bo0dXBXLHwpA',
-      },
-    ],
+    type: 'service',
+    title: 'Impegno Civico & Sicurezza',
+    items: [
+      { label: 'Associazione Nazionale Carabinieri', icon: '⚖️' }, 
+      { label: 'Vigile del Fuoco Volontario', icon: '🔥' },
+      { label: 'Sicurezza sul Lavoro (RLS)', icon: '⛑️' },
+    ]
   },
   {
-    type: 'section',
-    title: 'Contatti',
-    buttons: [
-      {
-        label: 'LinkedIn - Networking',
-        url: 'https://www.linkedin.com/in/alessandropila',
-      },
-      {
-        label: 'GitHub - Obscure-Light',
-        url: 'https://github.com/Obscure-Light',
-      },
-      {
-        label: 'Instagram - pila.alessandro',
-        url: 'https://www.instagram.com/pila.alessandro/#',
-      },
-    ],
+    type: 'links',
+    title: 'Formazione & Badge',
+    items: [
+      { label: 'Credly Portfolio', url: 'https://www.credly.com/users/alessandro-pila' },
+      { label: 'Microsoft Learn', url: 'https://learn.microsoft.com/it-it/users/pilaalessandro-4080/' },
+      { label: 'Skillsoft Wallet', url: 'https://skillsoft.digitalbadges.skillsoft.com/profile/alessandropila256379/wallet' },
+      { label: 'OneDrive - Portfolio', url: 'https://1drv.ms/f/c/a293a790e56ccdc0/IgAqZtKVJYoeRLiFwfCf9UvYAUB8KFEv8u8Bo0dXBXLHwpA' },
+    ]
   },
-]);
+  {
+    type: 'links',
+    title: 'Contatti & Risorse',
+    items: [
+      { label: 'Connect on LinkedIn', url: 'https://go.alessandropila.it/linkedin' },
+      { label: 'Follow on GitHub', url: 'https://go.alessandropila.it/github' },
+    ]
+  }
+];
 
-const iconMarkup = {
-  instagram:
-    '<svg class="socials__icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" ry="5" stroke="currentColor" stroke-width="1.8" fill="none"></rect><circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.8" fill="none"></circle><circle cx="17.2" cy="6.8" r="1.2" fill="currentColor"></circle></svg>',
-  github:
-    '<svg class="socials__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.5 2 2 6.5 2 12c0 4.4 2.9 8.1 6.9 9.4.5.1.6-.2.6-.4v-1.6c-2.8.6-3.4-1.3-3.4-1.3-.4-1-1-1.2-1-1.2-.8-.5.1-.5.1-.5.9.1 1.4 1 1.4 1 .8 1.4 2.1 1 2.6.8.1-.6.3-1 .6-1.3-2.3-.3-4.7-1.2-4.7-5.2 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.8 1a9.5 9.5 0 0 1 5.1 0c2-1.3 2.8-1 2.8-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 4-2.4 4.9-4.7 5.2.4.4.6 1 .6 1.9v2.8c0 .2.1.5.6.4A10 10 0 0 0 22 12c0-5.5-4.5-10-10-10Z" fill="currentColor"/></svg>',
-  linkedin:
-    '<svg class="socials__icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3" ry="3" stroke="currentColor" stroke-width="1.5" fill="none"></rect><rect x="6.3" y="10.3" width="2.6" height="7.7" fill="currentColor"></rect><rect x="6.3" y="6" width="2.6" height="2.5" fill="currentColor"></rect><path d="M15 10.2c-1.7 0-2.4.9-2.8 1.6V10h-2.6v8h2.6v-4.4c0-.7.3-1.6 1.4-1.6 1.1 0 1.2.9 1.2 1.7V18H17v-4.6c0-2-1-3.2-2-3.2z" fill="currentColor"></path></svg>',
+const icons = {
+  // Nuova icona Email
+  email: '<svg class="social-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>',
+  linkedin: '<svg class="social-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>',
+  github: '<svg class="social-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>',
+  instagram: '<svg class="social-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>'
 };
 
-const renderProfile = (container, data) => {
-  const header = document.createElement('header');
-  header.className = 'profile';
+const createEl = (tag, classes) => {
+  const el = document.createElement(tag);
+  if (classes) el.className = classes;
+  return el;
+};
 
-  const img = document.createElement('img');
-  img.src = data.photo;
-  img.alt = `Foto profilo di ${data.name}`;
-  img.className = 'profile__avatar';
+// --- RENDER PROFILE ---
+const renderProfile = (container) => {
+  const card = createEl('header', 'glass-box profile-card');
+  
+  // 1. Avatar
+  const ring = createEl('div', 'avatar-ring');
+  const img = createEl('img', 'profile__avatar');
+  img.src = profileData.photo;
+  img.alt = profileData.name;
+  ring.appendChild(img);
 
-  const name = document.createElement('h1');
-  name.className = 'profile__name';
-  name.textContent = data.name;
+  // 2. Identity Block (Nome + Logo Adattivo)
+  const identity = createEl('div', 'profile__identity');
+  
+  const name = createEl('h1', 'profile__name');
+  name.textContent = profileData.name;
+  
+  // LOGICA LOGO ADATTIVO (Dark vs Light)
+  if (profileData.logoDark) {
+    // Creiamo il tag <picture> che gestisce il cambio tema nativamente
+    const picture = document.createElement('picture');
+    
+    // Se il tema è CHIARO, usa logos.png
+    const sourceLight = document.createElement('source');
+    sourceLight.srcset = profileData.logoLight;
+    sourceLight.media = '(prefers-color-scheme: light)';
+    
+    // Default (e tema SCURO) usa logo.png
+    const imgLogo = createEl('img', 'profile__logo');
+    imgLogo.src = profileData.logoDark;
+    imgLogo.alt = 'Logo';
+    
+    picture.append(sourceLight, imgLogo);
+    identity.append(name, picture);
+  } else {
+    identity.appendChild(name);
+  }
 
-  const logo = document.createElement('img');
-  logo.src = 'assets/logo.png';
-  logo.alt = 'Logo di Alessandro Pila';
-  logo.className = 'profile__logo';
+  // 3. Ruolo e Location
+  const role = createEl('div', 'profile__role');
+  role.textContent = profileData.role;
 
-  const headline = document.createElement('div');
-  headline.className = 'profile__headline';
-  headline.append(name, logo);
+  // 4. Social Row
+  const socials = createEl('div', 'social-row');
+  profileData.socials.forEach(s => {
+    const a = createEl('a', 'social-btn');
+    a.href = s.url;
+    // Se è una mail, non usare target blank
+    if (!s.url.startsWith('mailto:')) {
+      a.target = '_blank';
+    }
+    a.innerHTML = icons[s.icon] || s.label;
+    a.setAttribute('aria-label', s.label);
+    socials.appendChild(a);
+  });
+  
+  if (profileData.location) {
+    const loc = createEl('div', 'profile__location');
+    loc.innerHTML = `<span>📍</span> ${profileData.location}`;
+    card.append(ring, identity, role, loc, socials);
+  } else {
+    card.append(ring, identity, role, socials);
+  }
 
-  const title = document.createElement('p');
-  title.className = 'profile__title';
+  container.appendChild(card);
+};
+
+// --- RENDER SECTIONS ---
+const renderAbout = (container, data) => {
+  const card = createEl('section', 'glass-box');
+  const title = createEl('h2', 'section-title');
   title.textContent = data.title;
+  
+  const text = createEl('div', 'about-text');
+  text.innerText = data.content;
 
-  const bio = document.createElement('p');
-  bio.className = 'profile__bio';
-  bio.textContent = data.bio;
-
-  header.append(img, headline, title, bio);
-
-  if (Array.isArray(data.socials) && data.socials.length) {
-    const nav = document.createElement('nav');
-    nav.className = 'socials';
-    nav.setAttribute('aria-label', 'Link social');
-
-    data.socials.forEach((social) => {
-      const anchor = document.createElement('a');
-      anchor.className = 'socials__link';
-      anchor.href = social.url;
-      anchor.target = '_blank';
-      anchor.rel = 'noopener noreferrer';
-      anchor.setAttribute('aria-label', social.label);
-      anchor.innerHTML = iconMarkup[social.icon] || '';
-      nav.append(anchor);
+  if (data.tags) {
+    const badgeContainer = createEl('div', 'badges-container');
+    data.tags.forEach(tag => {
+      const badge = createEl('span', 'tech-badge');
+      badge.textContent = tag;
+      badgeContainer.appendChild(badge);
     });
-
-    header.append(nav);
+    text.appendChild(badgeContainer);
   }
 
-  container.append(header);
+  card.append(title, text);
+  container.appendChild(card);
 };
 
-const renderSection = (container, data) => {
-  const section = document.createElement('section');
-  section.className = 'links-section';
-
-  const title = document.createElement('h2');
-  title.className = 'links-section__title';
+const renderService = (container, data) => {
+  const card = createEl('section', 'glass-box');
+  const title = createEl('h2', 'section-title');
   title.textContent = data.title;
 
-  const list = document.createElement('div');
-  list.className = 'links-list';
-
-  (data.buttons || []).forEach((button) => {
-    const anchor = document.createElement('a');
-    anchor.className = 'link-button';
-
-    if (button.variant) {
-      anchor.classList.add(`link-button--${button.variant}`);
-    }
-
-    if (button.url) {
-      anchor.href = button.url;
-      anchor.target = '_blank';
-      anchor.rel = 'noopener noreferrer';
-    } else {
-      anchor.classList.add('link-button--static');
-      anchor.setAttribute('role', 'article');
-      anchor.tabIndex = 0;
-    }
-
-    anchor.textContent = button.label;
-    list.append(anchor);
+  const grid = createEl('div', 'service-grid');
+  data.items.forEach(item => {
+    const box = createEl('div', 'service-card');
+    const icon = createEl('div', 'service-icon');
+    icon.textContent = item.icon;
+    const label = createEl('div', 'service-label');
+    label.textContent = item.label;
+    box.append(icon, label);
+    grid.appendChild(box);
   });
 
-  section.append(title, list);
-  container.append(section);
+  card.append(title, grid);
+  container.appendChild(card);
 };
 
-const init = () => {
+const renderLinks = (container, data) => {
+  const card = createEl('section', 'glass-box');
+  const title = createEl('h2', 'section-title');
+  title.textContent = data.title;
+
+  const grid = createEl('div', 'link-grid');
+  data.items.forEach(item => {
+    const a = createEl('a', 'link-item');
+    a.href = item.url;
+    a.target = '_blank';
+    const span = createEl('span');
+    span.textContent = item.label;
+    const arrow = createEl('span', 'link-arrow');
+    arrow.textContent = '→'; 
+    a.append(span, arrow);
+    grid.appendChild(a);
+  });
+
+  card.append(title, grid);
+  container.appendChild(card);
+};
+
+document.addEventListener('DOMContentLoaded', () => {
   const app = document.getElementById('app');
-
-  if (!app) {
-    console.warn('Elemento #app mancante.');
-    return;
-  }
-
-  const card = document.createElement('section');
-  card.className = 'card';
-
-  linkData.forEach((item) => {
-    if (item.type === 'profile') {
-      renderProfile(card, item);
-    }
-
-    if (item.type === 'section') {
-      renderSection(card, item);
-    }
+  if (!app) return;
+  renderProfile(app);
+  sections.forEach(section => {
+    if (section.type === 'about') renderAbout(app, section);
+    else if (section.type === 'service') renderService(app, section);
+    else if (section.type === 'links') renderLinks(app, section);
   });
-
-  app.replaceChildren(card);
-};
-
-document.addEventListener('DOMContentLoaded', init);
+});
