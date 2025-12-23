@@ -1,8 +1,8 @@
 ﻿const profileData = {
   photo: 'assets/fotoprofilo.webp', 
   // Definizione dei due loghi
-  logoDark: 'assets/logo.png',   // Logo Bianco (per sfondo scuro)
-  logoLight: 'assets/logos.png', // Logo Scuro (per sfondo chiaro)
+  logoDark: 'assets/logo-black.svg',   // Logo Bianco (per sfondo scuro)
+  logoLight: 'assets/logo-white.svg', // Logo Scuro (per sfondo chiaro)
   
   name: 'Alessandro Pila',
   role: 'Cybersecurity Engineer',
