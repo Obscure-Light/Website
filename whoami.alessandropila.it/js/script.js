@@ -55,10 +55,10 @@ Studio Ingegneria Informatica (LM-32) e frequento un Master in Management & Cybe
     type: 'links',
     title: 'Formazione & Badge',
     items: [
-      { label: 'Credly', url: 'https://www.go.alessandropila.it/credly' },
+      { label: 'Credly', url: 'https://go.alessandropila.it/credly' },
       { label: 'Microsoft Learn', url: 'https://learn.microsoft.com/it-it/users/pilaalessandro-4080/' },
-      { label: 'Accredible', url: 'https://www.go.alessandropila.it/accredible' },
-      { label: 'OneDrive - Portfolio', url: 'https://www.go.alessandropila.it/portfolio' },
+      { label: 'Accredible', url: 'https://go.alessandropila.it/accredible' },
+      { label: 'OneDrive - Portfolio', url: 'https://go.alessandropila.it/portfolio' },
     ]
   },
   {
