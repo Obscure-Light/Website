@@ -22,10 +22,12 @@ const sections = [
     title: 'About Me',
     content: `Mi occupo di cybersecurity end-to-end, operando su ambienti multi-cloud e ibridi con focus su protezione, rilevamento e risposta agli incidenti.
 
-    In Accenture lavoro sulla sicurezza di infrastrutture complesse, integrando tecnologia, processi e governance per ridurre il rischio reale.
-    
-    Studio Ingegneria Informatica (LM-32) e frequento un Master in Management & Cybersecurity, con un approccio orientato all’operatività, alla resilienza e alla responsabilità tecnica.
-    
+In Accenture lavoro sulla sicurezza di infrastrutture complesse, integrando tecnologia, processi e governance per ridurre il rischio reale.
+
+Provengo da un background in elettronica e riparazione hardware, che guida il mio approccio: capire i sistemi a fondo, individuare i punti deboli e ripararli, non solo proteggerli.
+
+Studio Ingegneria Informatica (LM-32) e frequento un Master in Management & Cybersecurity, con un approccio orientato all’operatività, alla resilienza e alla responsabilità tecnica.
+
     Tecnologia · Etica · Disciplina · Visione`,
     tags: [
       'Cloud Security', 
