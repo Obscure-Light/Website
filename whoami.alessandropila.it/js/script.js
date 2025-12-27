@@ -55,10 +55,10 @@ Studio Ingegneria Informatica (LM-32) e frequento un Master in Management & Cybe
     type: 'links',
     title: 'Formazione & Badge',
     items: [
-      { label: 'Credly Portfolio', url: 'https://www.credly.com/users/alessandro-pila' },
+      { label: 'Credly', url: 'https://www.go.alessandropila.it/credly' },
       { label: 'Microsoft Learn', url: 'https://learn.microsoft.com/it-it/users/pilaalessandro-4080/' },
-      { label: 'Skillsoft Wallet', url: 'https://skillsoft.digitalbadges.skillsoft.com/profile/alessandropila256379/wallet' },
-      { label: 'OneDrive - Portfolio', url: 'https://1drv.ms/f/c/a293a790e56ccdc0/IgAqZtKVJYoeRLiFwfCf9UvYAUB8KFEv8u8Bo0dXBXLHwpA' },
+      { label: 'Accredible', url: 'https://www.go.alessandropila.it/accredible' },
+      { label: 'OneDrive - Portfolio', url: 'https://www.go.alessandropila.it/portfolio' },
     ]
   },
   {
