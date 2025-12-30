@@ -1,0 +1,18 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Alessandro Pila
+N:Pila;Alessandro;;;
+TITLE:Cybersecurity Engineer
+ROLE:Detection & Response / Email & Identity Security
+ORG:Accenture
+TEL;TYPE=WORK,VOICE:+39
+EMAIL;TYPE=WORK,INTERNET:contact@alessandropila.it
+URL:https://whoami.alessandropila.it/
+item1.URL;TYPE=LinkedIn:https://go.alessandropila.it/linkedin
+item2.URL;TYPE=GitHub:https://go.alessandropila.it/github
+item3.URL;TYPE=Instagram:https://go.alessandropila.it/instagram
+ADR;TYPE=WORK:;;Via del Mulino 11/A;Assago;MI;;Italy
+NOTE:Cybersecurity professional specializing in Detection & Response, Email Security, Identity and Cloud Security. Active in volunteering and continuous professional development.
+CATEGORIES:Cybersecurity,Detection and Response,Email Security,Identity Security,Cloud Security
+REV:20251230T220000Z
+END:VCARD
