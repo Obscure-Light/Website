@@ -68,6 +68,7 @@ Studio Ingegneria Informatica (LM-32) e frequento un Master in Management & Cybe
     items: [
       { label: 'Connect on LinkedIn', url: 'https://go.alessandropila.it/linkedin' },
       { label: 'Follow on GitHub', url: 'https://go.alessandropila.it/github' },
+      { label: 'Formazione', url: 'https://formazione.alessandropila.it' },
     ]
   }
 ];
