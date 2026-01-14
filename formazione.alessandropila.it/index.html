@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- SEO placeholders (filled by app.js from config.js) -->
+  <title></title>
+  <meta name="description" content="" />
+  <link rel="canonical" href="" />
+
+  <!-- OpenGraph / Twitter placeholders -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="" />
+  <meta property="og:description" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="" />
+  <meta name="twitter:description" content="" />
+  <meta name="twitter:image" content="" />
+
+  <!-- Favicon / icons -->
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+  <link rel="icon" type="image/png" href="./assets/favicon.png" />
+  <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png" />
+
+  <meta name="color-scheme" content="light dark" />
+
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Salta al contenuto principale</a>
+
+  <!-- Sticky header (rendered from config) -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <div class="brand" id="brand"></div>
+
+      <nav class="nav" aria-label="Navigazione principale">
+        <button class="nav-toggle" type="button" aria-label="Apri menu" aria-expanded="false" aria-controls="navList">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </button>
+
+        <ul class="nav-list" id="navList"></ul>
+      </nav>
+
+      <div class="header-actions">
+        <div id="headerCta"></div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="section hero" id="hero" data-section>
+      <div class="container hero-grid">
+        <div class="hero-copy" id="heroCopy"></div>
+        <div class="hero-side" id="heroSide"></div>
+      </div>
+    </section>
+
+    <!-- Programmi -->
+    <section class="section" id="programmi" data-section>
+      <div class="container">
+        <div class="section-head" id="programsHead"></div>
+        <div class="grid cards" id="programsGrid" aria-live="polite"></div>
+        <p class="muted note" id="programsNote"></p>
+      </div>
+    </section>
+
+    <!-- A chi è rivolto -->
+    <section class="section" id="target" data-section>
+      <div class="container">
+        <div class="section-head" id="targetHead"></div>
+        <div class="grid cols-3" id="targetCols"></div>
+        <aside class="callout" id="notThisBox" role="note"></aside>
+      </div>
+    </section>
+
+    <!-- Metodo -->
+    <section class="section" id="metodo" data-section>
+      <div class="container">
+        <div class="section-head" id="methodHead"></div>
+        <ol class="timeline" id="methodSteps"></ol>
+        <div class="materials" id="materialsBox"></div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq" data-section>
+      <div class="container">
+        <div class="section-head" id="faqHead"></div>
+        <div class="accordion" id="faqAccordion"></div>
+      </div>
+    </section>
+
+    <!-- Chi sono -->
+    <section class="section" id="chi-sono" data-section>
+      <div class="container">
+        <div class="section-head" id="aboutHead"></div>
+        <div class="about-card" id="aboutCard"></div>
+      </div>
+    </section>
+
+    <!-- Contatti -->
+    <section class="section" id="contatti" data-section>
+      <div class="container">
+        <div class="section-head" id="contactHead"></div>
+
+        <div class="contact-grid">
+          <div class="contact-card" id="contactCard"></div>
+
+          <div class="form-card">
+            <form id="contactForm" novalidate>
+              <div class="form-row">
+                <label class="field">
+                  <span class="label" id="labelName"></span>
+                  <input name="name" type="text" autocomplete="name" required />
+                  <span class="hint" data-error-for="name" aria-live="polite"></span>
+                </label>
+
+                <label class="field">
+                  <span class="label" id="labelEmail"></span>
+                  <input name="email" type="email" autocomplete="email" required inputmode="email" />
+                  <span class="hint" data-error-for="email" aria-live="polite"></span>
+                </label>
+              </div>
+
+              <label class="field">
+                <span class="label" id="labelOrg"></span>
+                <input name="org" type="text" autocomplete="organization" />
+                <span class="hint" data-error-for="org" aria-live="polite"></span>
+              </label>
+
+              <label class="field">
+                <span class="label" id="labelMsg"></span>
+                <textarea name="message" rows="6" required></textarea>
+                <span class="hint" data-error-for="message" aria-live="polite"></span>
+              </label>
+
+              <div class="form-actions">
+                <button class="btn btn-primary" type="submit" id="fakeSubmit"></button>
+                <button class="btn btn-ghost" type="button" id="copyEmailBtn"></button>
+                <button class="btn btn-ghost" type="button" id="copyMsgBtn"></button>
+              </div>
+
+              <p class="muted note" id="privacyNote"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand" id="footerBrand"></div>
+
+      <nav class="footer-links" aria-label="Link rapidi">
+        <ul id="footerLinks"></ul>
+      </nav>
+
+      <div class="footer-meta">
+        <p class="muted" id="copyright"></p>
+        <a class="muted link" id="whoamiLink" href="#" rel="me noopener noreferrer" target="_blank"></a>
+        <div class="theme-status" id="themeStatus" aria-live="polite"></div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast container -->
+  <div class="toast-stack" id="toastStack" aria-live="polite" aria-relevant="additions text"></div>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
