@@ -61,6 +61,24 @@ body {
   transition: background-color 0.5s ease;
 }
 
+/* Reveal animation */
+.reveal {
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    transition: none;
+    transform: none;
+    opacity: 1;
+  }
+}
+
 /* Background Animation */
 .ambient-light {
   position: fixed; inset: 0; z-index: -1; pointer-events: none; overflow: hidden;
@@ -164,6 +182,71 @@ body {
   color: var(--text-sub); background: var(--glass-highlight);
 }
 
+/* Numbers pills */
+.numbers-pill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+.number-pill {
+  background: var(--glass-highlight);
+  border: 1px solid var(--glass-border);
+  padding: 12px 14px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 8px;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+.number-value {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-main);
+}
+.number-label {
+  font-size: 0.85rem;
+  color: var(--text-sub);
+  line-height: 1.2;
+}
+
+/* Method */
+.method-timeline {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 12px;
+  position: relative;
+}
+.method-step {
+  display: grid;
+  grid-template-columns: 16px 1fr;
+  gap: 12px;
+  align-items: start;
+  position: relative;
+}
+.method-step::before {
+  content: '';
+  position: absolute;
+  left: 7px;
+  top: 16px;
+  bottom: -12px;
+  width: 2px;
+  background: var(--glass-border);
+}
+.method-step:last-child::before { display: none; }
+.method-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--text-accent);
+  box-shadow: 0 0 0 6px var(--badge-bg);
+}
+.method-text { font-size: 0.95rem; color: var(--text-main); line-height: 1.4; }
+
 /* Service / Volunteering Grid */
 .service-grid { 
   display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 12px; 
@@ -188,6 +271,23 @@ body {
 }
 .link-item:hover { transform: scale(1.01); border-color: var(--text-accent); background: var(--badge-bg); }
 .link-arrow { color: var(--text-sub); font-family: sans-serif; }
+
+/* Projects */
+.project-grid { display: flex; flex-direction: column; gap: 12px; }
+.project-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 6px;
+  padding: 16px 20px;
+  background: var(--glass-highlight);
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+  color: var(--text-main);
+  transition: all 0.2s;
+}
+.project-card:hover { transform: translateY(-2px); border-color: var(--text-sub); }
+.project-title { font-weight: 600; }
+.project-desc { color: var(--text-sub); font-size: 0.85rem; line-height: 1.4; }
 
 /* Responsive Adjustments */
 @media (max-width: 480px) {
