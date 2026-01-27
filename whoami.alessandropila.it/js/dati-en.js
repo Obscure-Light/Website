@@ -79,8 +79,9 @@ Technology · Ethics · Discipline · Vision`,
     title: 'Main projects',
     items: [
       { label: 'DNSAnalyzer', desc: 'DNS analysis and diagnostics with automated configuration checks.' },
-      { label: 'EmailTester', desc: 'Testing email delivery and configuration health.' },
-      { label: 'IPHostResolver', desc: 'Fast host and IP resolution utilities.' },
+      { label: 'EmailTester', desc: 'Email delivery verification and security configuration testing.' },
+      { label: 'Website ANC Pavia', desc: 'Official website for the National Carabinieri Association – Pavia section.' },
+      { label: 'GeneratoreTurniVVF', desc: 'Randomized shift scheduling management for volunteer firefighters.' },
     ]
   },
   {

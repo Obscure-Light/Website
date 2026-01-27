@@ -78,10 +78,10 @@ Tecnologia · Etica · Disciplina · Visione`,
     type: 'projects',
     title: 'Progetti principali',
     items: [
-      { label: 'DNSAnalyzer', desc: 'DNS analysis and diagnostics with automated configuration checks.' },
-      { label: 'EmailTester', desc: 'Email delivery verification and security configuration testing.' },
-      { label: 'Website ANC Pavia', desc: 'Official website for the National Carabinieri Association – Pavia section.' },
-      { label: 'VVFscheduler', desc: 'Randomized shift scheduling management for volunteer firefighters.' },
+      { label: 'DNSAnalyzer', desc: 'Analisi e diagnostica DNS con controlli automatici di configurazione.' },
+      { label: 'EmailTester', desc: 'Verifica del recapito email e testing delle configurazioni di sicurezza.' },
+      { label: 'Website ANC Pavia', desc: 'Sito web per l\'Ass. Naz. Carabinieri sezione di Pavia' },
+      { label: 'GeneratoreTurniVVF', desc: 'Gestione della turnazione randomica dei VVF' },
     ]
   },
   {
