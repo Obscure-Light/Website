@@ -62,7 +62,7 @@ Tecnologia · Etica · Disciplina · Visione`,
       'Privilegio processi ripetibili, non interventi eroici',
       'Automatizzo dove serve, semplifico dove possibile',
       'Documentazione sempre utile',
-      'Responsabilita tecnica prima delle scorciatoie',
+      'Responsabilità tecnica prima delle scorciatoie',
     ]
   },
   {
@@ -100,7 +100,7 @@ Tecnologia · Etica · Disciplina · Visione`,
     items: [
       { label: 'Collegati su LinkedIn', url: 'https://go.alessandropila.it/linkedin' },
       { label: 'Segui su GitHub', url: 'https://go.alessandropila.it/github' },
-      { label: 'Formazione', url: 'https://formazione.alessandropila.it' },
+      //{ label: 'Formazione', url: 'https://formazione.alessandropila.it' },
     ]
   }
 ];

@@ -100,7 +100,7 @@ Technology · Ethics · Discipline · Vision`,
     items: [
       { label: 'Connect on LinkedIn', url: 'https://go.alessandropila.it/linkedin' },
       { label: 'Follow on GitHub', url: 'https://go.alessandropila.it/github' },
-      { label: 'Training', url: 'https://formazione.alessandropila.it' },
+      //{ label: 'Training', url: 'https://formazione.alessandropila.it' },
     ]
   }
 ];
