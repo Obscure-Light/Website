@@ -438,7 +438,7 @@
         },
         hero: {
           eyebrow: "Consulenza viaggi | progetto e presenza",
-          title: "Viaggi su misura, con accompagnamento personale.",
+          title: "Viaggi su misura, con guida personale.",
           description: "Giorgio Lodigiani lavora su due direttrici complementari: costruire viaggi su misura con un metodo chiaro e, quando il progetto lo richiede, accompagnarli personalmente sul campo.",
           primaryCta: { label: "Scrivimi", href: "contatti.html#contact-form" },
           secondaryCta: { label: "Scopri i servizi", href: "servizi.html" },
