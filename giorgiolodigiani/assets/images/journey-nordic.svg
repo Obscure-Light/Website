@@ -1,0 +1,22 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="48" fill="url(#paint0_linear_13_1)"/>
+  <path d="M0 520C150 468 290 470 420 520C550 570 660 572 800 506C940 440 1078 434 1200 472V900H0V520Z" fill="#9ED4D8"/>
+  <path d="M0 638C130 594 264 590 401 631C538 672 675 680 812 642C949 604 1078 611 1200 672V900H0V638Z" fill="#4A7E93"/>
+  <path d="M178 482L342 250L466 482H178Z" fill="#EAF4F2"/>
+  <path d="M334 482L548 198L726 482H334Z" fill="#D5E5E2"/>
+  <path d="M620 482L810 238L972 482H620Z" fill="#EDF5F0"/>
+  <circle cx="206" cy="180" r="70" fill="#FFF9D8"/>
+  <text x="84" y="720" fill="#F5FBFC" font-family="Georgia, serif" font-size="92" letter-spacing="-2">
+    Islanda on the road
+  </text>
+  <text x="86" y="782" fill="#D7EDEE" font-family="Arial, sans-serif" font-size="28" letter-spacing="4">
+    NATURA, LUCE, SILENZIO
+  </text>
+  <defs>
+    <linearGradient id="paint0_linear_13_1" x1="76" y1="60" x2="1094" y2="838" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D9EEE9"/>
+      <stop offset="0.48" stop-color="#7AA7B5"/>
+      <stop offset="1" stop-color="#234D5C"/>
+    </linearGradient>
+  </defs>
+</svg>

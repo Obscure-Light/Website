@@ -1,0 +1,33 @@
+<svg width="900" height="1100" viewBox="0 0 900 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="1100" rx="48" fill="url(#paint0_linear_10_1)"/>
+  <circle cx="690" cy="220" r="170" fill="url(#paint1_radial_10_1)" fill-opacity="0.7"/>
+  <circle cx="170" cy="950" r="150" fill="url(#paint2_radial_10_1)" fill-opacity="0.65"/>
+  <rect x="90" y="90" width="720" height="920" rx="36" fill="white" fill-opacity="0.09" stroke="white" stroke-opacity="0.16"/>
+  <path d="M450 345C505.228 345 550 300.228 550 245C550 189.772 505.228 145 450 145C394.772 145 350 189.772 350 245C350 300.228 394.772 345 450 345Z" fill="#F6EFE4" fill-opacity="0.92"/>
+  <path d="M268 720C268 619.485 349.485 538 450 538C550.515 538 632 619.485 632 720V773H268V720Z" fill="#F6EFE4" fill-opacity="0.92"/>
+  <path d="M316 466C351.667 416.667 395 392 446 392C497 392 541.333 416.667 579 466" stroke="#E5C7A9" stroke-width="18" stroke-linecap="round"/>
+  <text x="126" y="860" fill="#FFF9F0" font-family="Georgia, serif" font-size="78" letter-spacing="-2">
+    Giorgio Lodigiani
+  </text>
+  <text x="126" y="918" fill="#F0DDC9" font-family="Arial, sans-serif" font-size="28" letter-spacing="4">
+    CONSULENTE DI VIAGGI
+  </text>
+  <text x="126" y="976" fill="#F6EFE4" fill-opacity="0.82" font-family="Arial, sans-serif" font-size="24">
+    Consulenza personalizzata per viaggi eleganti, coerenti e su misura.
+  </text>
+  <defs>
+    <linearGradient id="paint0_linear_10_1" x1="64" y1="62" x2="828" y2="1022" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B96844"/>
+      <stop offset="0.55" stop-color="#3B5F59"/>
+      <stop offset="1" stop-color="#173B36"/>
+    </linearGradient>
+    <radialGradient id="paint1_radial_10_1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(690 220) rotate(90) scale(170)">
+      <stop stop-color="#EEC7A8"/>
+      <stop offset="1" stop-color="#EEC7A8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="paint2_radial_10_1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(170 950) rotate(90) scale(150)">
+      <stop stop-color="#CFA75E"/>
+      <stop offset="1" stop-color="#CFA75E" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

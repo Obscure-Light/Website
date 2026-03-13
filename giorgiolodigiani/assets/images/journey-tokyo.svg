@@ -1,0 +1,24 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="48" fill="url(#paint0_linear_15_1)"/>
+  <circle cx="956" cy="154" r="88" fill="#FFD4D1"/>
+  <path d="M0 596C140 544 262 530 368 552C473 573 596 582 744 536C890 490 1042 491 1200 558V900H0V596Z" fill="#304B68"/>
+  <path d="M0 704C138 670 273 662 406 688C539 714 678 715 818 690C958 665 1085 672 1200 714V900H0V704Z" fill="#13263A"/>
+  <path d="M290 364H384V596H290V364Z" fill="#E8EDF4"/>
+  <path d="M414 300H512V596H414V300Z" fill="#DDE6F2"/>
+  <path d="M544 228H654V596H544V228Z" fill="#F3D9DF"/>
+  <path d="M684 330H784V596H684V330Z" fill="#DDE6F2"/>
+  <path d="M816 400H900V596H816V400Z" fill="#E8EDF4"/>
+  <text x="84" y="720" fill="#F9F8FD" font-family="Georgia, serif" font-size="92" letter-spacing="-2">
+    Tokyo e Kyoto
+  </text>
+  <text x="86" y="782" fill="#D9E3F0" font-family="Arial, sans-serif" font-size="28" letter-spacing="4">
+    CITY ENERGY, CULTURA, DESIGN
+  </text>
+  <defs>
+    <linearGradient id="paint0_linear_15_1" x1="88" y1="62" x2="1108" y2="844" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D9E5F4"/>
+      <stop offset="0.48" stop-color="#6780A1"/>
+      <stop offset="1" stop-color="#1D2D42"/>
+    </linearGradient>
+  </defs>
+</svg>

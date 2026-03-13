@@ -1,0 +1,22 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="48" fill="url(#paint0_linear_14_1)"/>
+  <circle cx="942" cy="190" r="94" fill="#FFD696"/>
+  <path d="M0 570C144 514 272 506 384 536C496 566 616 576 760 520C905 464 1044 470 1200 536V900H0V570Z" fill="#CFA75E"/>
+  <path d="M0 682C145 646 290 641 436 670C582 699 725 701 864 671C1003 640 1115 646 1200 686V900H0V682Z" fill="#906B38"/>
+  <path d="M290 488C352 410 420 372 494 374C568 376 642 414 718 488" stroke="#2F3D2E" stroke-width="24" stroke-linecap="round"/>
+  <path d="M470 356C470 320.654 498.654 292 534 292C569.346 292 598 320.654 598 356" stroke="#2F3D2E" stroke-width="18" stroke-linecap="round"/>
+  <path d="M708 400C708 360.235 740.235 328 780 328C819.765 328 852 360.235 852 400" stroke="#2F3D2E" stroke-width="18" stroke-linecap="round"/>
+  <text x="84" y="720" fill="#FFF8EC" font-family="Georgia, serif" font-size="88" letter-spacing="-2">
+    Safari in Tanzania
+  </text>
+  <text x="86" y="782" fill="#F3E2B8" font-family="Arial, sans-serif" font-size="28" letter-spacing="4">
+    WILD LUXURY, CAMPI, SPAZIO
+  </text>
+  <defs>
+    <linearGradient id="paint0_linear_14_1" x1="85" y1="54" x2="1106" y2="846" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5C87E"/>
+      <stop offset="0.52" stop-color="#BE8346"/>
+      <stop offset="1" stop-color="#5B4327"/>
+    </linearGradient>
+  </defs>
+</svg>

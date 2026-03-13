@@ -1,0 +1,23 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="48" fill="url(#paint0_linear_11_1)"/>
+  <circle cx="940" cy="170" r="90" fill="#FFE8B8"/>
+  <path d="M0 558C151 496 281 496 390 538C496 580 636 594 784 526C890 477 1028 471 1200 540V900H0V558Z" fill="#7BC0D8"/>
+  <path d="M0 650C132 610 252 600 360 624C467 648 588 687 736 643C883 599 1021 605 1200 688V900H0V650Z" fill="#2D8EB0"/>
+  <path d="M200 382C282 308 381 272 498 274C615 276 707 319 776 402L721 454C658 389 582 358 493 358C404 358 324 391 253 458L200 382Z" fill="#F6EBDD"/>
+  <path d="M566 340H624V564H566V340Z" fill="#FFF9F0"/>
+  <path d="M486 404H558V564H486V404Z" fill="#FFEAD1"/>
+  <path d="M632 372H716V564H632V372Z" fill="#FBD9B5"/>
+  <text x="84" y="720" fill="#FFF9F0" font-family="Georgia, serif" font-size="88" letter-spacing="-2">
+    Costiera Amalfitana
+  </text>
+  <text x="86" y="782" fill="#ECF8FB" font-family="Arial, sans-serif" font-size="28" letter-spacing="4">
+    MARE, RELAX, BOUTIQUE STAY
+  </text>
+  <defs>
+    <linearGradient id="paint0_linear_11_1" x1="78" y1="72" x2="1092" y2="842" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E7AA6E"/>
+      <stop offset="0.54" stop-color="#7AB7CF"/>
+      <stop offset="1" stop-color="#276983"/>
+    </linearGradient>
+  </defs>
+</svg>

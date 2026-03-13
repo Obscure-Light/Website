@@ -1,0 +1,23 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="48" fill="url(#paint0_linear_12_1)"/>
+  <circle cx="910" cy="180" r="92" fill="#FFE3A1"/>
+  <path d="M0 575C164 505 302 488 416 520C530 551 652 548 780 489C904 432 1044 428 1200 480V900H0V575Z" fill="#D58A57"/>
+  <path d="M0 674C172 624 326 613 462 648C597 682 733 688 850 648C962 610 1079 622 1200 680V900H0V674Z" fill="#A9482F"/>
+  <path d="M470 298H574V556H470V298Z" fill="#F6E0C9"/>
+  <path d="M592 356H702V556H592V356Z" fill="#F9D4AF"/>
+  <path d="M722 404H804V556H722V404Z" fill="#F2BC84"/>
+  <path d="M520 298C520 247.19 561.19 206 612 206C662.81 206 704 247.19 704 298H520Z" fill="#F6E0C9"/>
+  <text x="84" y="720" fill="#FFF7ED" font-family="Georgia, serif" font-size="92" letter-spacing="-2">
+    Marrakech
+  </text>
+  <text x="86" y="782" fill="#FFE9D2" font-family="Arial, sans-serif" font-size="28" letter-spacing="4">
+    RIAD, SOUK, DESERTO
+  </text>
+  <defs>
+    <linearGradient id="paint0_linear_12_1" x1="92" y1="52" x2="1120" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F1B66E"/>
+      <stop offset="0.52" stop-color="#C86A43"/>
+      <stop offset="1" stop-color="#7E2E27"/>
+    </linearGradient>
+  </defs>
+</svg>
