@@ -1639,6 +1639,10 @@ body[data-page="contact"] .quick-actions {
 
   .hero-copy h1 {
     max-width: 100%;
+    font-size: clamp(2.7rem, 11vw, 3.8rem);
+    line-height: 1.02;
+    overflow-wrap: anywhere;
+    hyphens: auto;
   }
 
   .hero-copy p {
