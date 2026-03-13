@@ -54,7 +54,7 @@
     },
     {
       icon: "user",
-      eyebrow: "Accompagnamento personale",
+      eyebrow: "",
       title: "Presenza diretta nei viaggi che richiedono piu supporto",
       text: "Per progetti selezionati Giorgio puo accompagnare personalmente il viaggio, coordinando sul posto passaggi chiave, ritmo e dettagli operativi.",
       meta: ["Presenza diretta", "Itinerari selezionati", "Taglio premium"]
@@ -101,7 +101,7 @@
     },
     {
       icon: "user",
-      title: "Accompagnamento personale",
+      title: "",
       text: "Per viaggi selezionati Giorgio puo essere presente in prima persona, seguendo sul posto il percorso e i momenti piu delicati.",
       meta: ["Presenza diretta", "Supporto sul posto", "Su richiesta"]
     }
@@ -318,7 +318,7 @@
       answer: "Sì. Se esiste già una base posso aiutarti a rifinire struttura, ritmo, soggiorni ed esperienze."
     },
     {
-      question: "Come funziona l'accompagnamento personale?",
+      question: "Come funziona l'?",
       answer: "Per viaggi selezionati posso essere presente in prima persona. Si valuta caso per caso, in base al tipo di progetto e al livello di supporto richiesto."
     },
     {
@@ -366,7 +366,7 @@
     global: {
       siteName: "Giorgio Lodigiani",
       role: "Consulente di viaggi",
-      tagline: "Viaggi su misura e accompagnamento personale, con una regia chiara dall'idea alla partenza.",
+      tagline: "Viaggi su misura e guida personale, con una regia chiara dall'idea alla partenza.",
       contacts: CONTACTS,
       footerText: "Una consulenza personale per costruire viaggi su misura e, quando serve, affiancarli con presenza diretta."
     },
